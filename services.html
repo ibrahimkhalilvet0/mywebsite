@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ডাঃ ইব্রাহিম খলিল - সার্ভিসেস</title>
+  <link rel="icon" href="https://i.postimg.cc/d3F9FrtV/Picsart-25-07-07-13-19-27-265.jpg" type="image/x-icon" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #a0c4ff, #d0dff7);
+      color: #1a1a1a;
+    }
+    /* হেডার - কভার ফটো ও টেক্সট */
+    header {
+      height: 300px;
+      background-image: url('https://i.postimg.cc/d3F9FrtV/Picsart-25-07-07-13-19-27-265.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 20px;
+      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); /* কালো শেড */
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    /* নেভিগেশন বার */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #023e8a;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #90e0ef;
+    }
+
+    /* মূল কন্টেন্ট এর জায়গা */
+    .content {
+      padding: 30px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    /* সার্ভিস কার্ড স্টাইল */
+    .service {
+      background-color: white;
+      border-radius: 12px;
+      padding: 25px 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+      color: #004d40;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: default;
+    }
+    .service:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+    }
+    .service h3 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .service p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    /* ফুটার অংশ */
+    footer {
+      background-color: #03045e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .socials a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: white;
+      font-size: 1.3rem;
+      transition: color 0.3s;
+    }
+    .socials a:hover {
+      color: #90e0ef;
+    }
+
+    /* মোবাইল রেসপন্সিভ */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      nav {
+        flex-wrap: wrap;
+      }
+      nav a {
+        margin: 8px 10px;
+        font-size: 1rem;
+      }
+      .service {
+        padding: 20px 15px;
+      }
+      .service h3 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- হেডার অংশ -->
+  <header>
+    <h1>ডাঃ ইব্রাহিম খলিল</h1>
+    <p>ভেটেরিনারি হেলথ কেয়ার বিশেষজ্ঞ</p>
+  </header>
+
+  <!-- নেভিগেশন বার -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+
+  <!-- মেইন কন্টেন্ট -->
+  <div class="content">
+    <h2>আমার সার্ভিসেস</h2>
+
+    <!-- প্রতিটি সার্ভিস এর জন্য আলাদা কার্ড -->
+    <div class="service">
+      <h3>✅ গরু ও ছাগলের রোগ নির্ণয়</h3>
+      <p>প্রাথমিক লক্ষণ দেখে রোগ চিহ্নিতকরণ ও সঠিক চিকিৎসা পরামর্শ প্রদান।</p>
+    </div>
+
+    <div class="service">
+      <h3>💉 ইনজেকশন ও ওষুধ প্রয়োগ</h3>
+      <p>এন্টিবায়োটিক, ভ্যাকসিন ও অন্যান্য ইনজেকটেবল ওষুধ প্রয়োগ করা হয় পেশাগত দক্ষতায়।</p>
+    </div>
+
+    <div class="service">
+      <h3>🧪 কালচার ও সেনসিটিভিটি রিপোর্ট বিশ্লেষণ</h3>
+      <p>ব্যাকটেরিয়ার বিরুদ্ধে কার্যকর ওষুধ নির্বাচন করতে রিপোর্ট বিশ্লেষণ করা হয়।</p>
+    </div>
+
+    <div class="service">
+      <h3>📋 চিকিৎসা ও ফলো-আপ</h3>
+      <p>রোগ অনুযায়ী নির্দিষ্ট চিকিৎসা পরিকল্পনা ও নিয়মিত ফলোআপ দিয়ে সেবা নিশ্চিত করা হয়।</p>
+    </div>
+  </div>
+
+  <!-- ফুটার -->
+  <footer>
+    <div class="socials">
+      <a href="https://www.facebook.com/Ibrahimkhalilvet0" target="_blank" title="Facebook">📘 Facebook</a>
+      <a href="https://wa.me/8801646941182" target="_blank" title="WhatsApp">📱 WhatsApp</a>
+      <a href="https://www.instagram.com/ibrahimshkdr22" target="_blank" title="Instagram">📸 Instagram</a>
+    </div>
+    <p>© ২০২৫ ডাঃ ইব্রাহিম খলিল | সর্বস্বত্ব সংরক্ষিত</p>
+  </footer>
+
+</body>
+</html>
