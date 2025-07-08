@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ডাঃ ইব্রাহিম খলিল</title>
-  <link rel="icon" href="https://postimg.cc/ygw1Hs4J" type="image/x-icon">
+  <link rel="icon" href="https://i.postimg.cc/d3F9FrtV/Picsart-25-07-07-13-19-27-265.jpg" type="image/x-icon" />
   <style>
     body {
       margin: 0;
@@ -13,14 +13,26 @@
       color: #1a1a1a;
     }
     header {
-      background-color: #0077b6;
+      height: 300px;
+      background-image: url('https://i.postimg.cc/d3F9FrtV/Picsart-25-07-07-13-19-27-265.jpg');
+      background-size: cover;
+      background-position: center;
       color: white;
-      padding: 20px;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 20px;
+      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
     }
-    header img {
-      max-width: 120px;
-      border-radius: 50%;
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
     }
     nav {
       display: flex;
@@ -40,6 +52,20 @@
     .content {
       padding: 30px;
       text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+    .service {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+      color: #004d40;
+    }
+    .service:hover {
+      transform: scale(1.02);
     }
     footer {
       background-color: #03045e;
@@ -58,7 +84,6 @@
 <body>
 
   <header>
-    <img src="https://postimg.cc/vgPnL1VJ" alt="Profile Picture">
     <h1>ডাঃ ইব্রাহিম খলিল</h1>
     <p>ভেটেরিনারি হেলথ কেয়ার বিশেষজ্ঞ</p>
   </header>
@@ -72,8 +97,27 @@
   </nav>
 
   <div class="content">
-    <h2>স্বাগতম!</h2>
-    <p>আমি ডাঃ ইব্রাহিম খলিল — গবাদিপশুর চিকিৎসা, পরামর্শ ও রোগ ব্যবস্থাপনায় আপনার বিশ্বস্ত সাথী।</p>
+    <h2>আমার সার্ভিসেস</h2>
+
+    <div class="service">
+      <h3>✅ গরু ও ছাগলের রোগ নির্ণয়</h3>
+      <p>প্রাথমিক লক্ষণ দেখে রোগ চিহ্নিতকরণ ও সঠিক চিকিৎসা পরামর্শ প্রদান।</p>
+    </div>
+
+    <div class="service">
+      <h3>💉 ইনজেকশন ও ওষুধ প্রয়োগ</h3>
+      <p>এন্টিবায়োটিক, ভ্যাকসিন ও অন্যান্য ইনজেকটেবল ওষুধ প্রয়োগ করা হয় পেশাগত দক্ষতায়।</p>
+    </div>
+
+    <div class="service">
+      <h3>🧪 কালচার ও সেনসিটিভিটি রিপোর্ট বিশ্লেষণ</h3>
+      <p>ব্যাকটেরিয়ার বিরুদ্ধে কার্যকর ওষুধ নির্বাচন করতে রিপোর্ট বিশ্লেষণ করা হয়।</p>
+    </div>
+
+    <div class="service">
+      <h3>📋 চিকিৎসা ও ফলো-আপ</h3>
+      <p>রোগ অনুযায়ী নির্দিষ্ট চিকিৎসা পরিকল্পনা ও নিয়মিত ফলোআপ দিয়ে সেবা নিশ্চিত করা হয়।</p>
+    </div>
   </div>
 
   <footer>
